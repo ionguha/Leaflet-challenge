@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+/* Customizing header 3 */
+h3{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color: darkcyan;
+  font-size: 2em;
+}
+/* Customizing header 4  */
+h4{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color: darkolivegreen;
+  font-size: 1.5em;
+}
+/* Customizing paragraph */
+p{
+  color:rgb(7, 87, 87);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+/* Blinking animation */
+@keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.5; }
+  to { opacity: 1.0; }
+}                                                                                                                                                                                                                                  
+
+@-webkit-keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.5; }
+  to { opacity: 1.0; }
+}
+
+.blinking {
+animation:fade 1000ms infinite;
+-webkit-animation:fade 1000ms infinite;
+}
+
+/* Stylizing the legend panel */
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  }
+  .legend {
+  background-color: whitesmoke;
+  line-height: 25px;
+  color: #555;
+  width: auto;
+  }
+  .legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px; 
+  opacity: 1.0;
+  }
+  
+ /* Stylizing the bottom insert for USGS image */
+  .my-custom-control {
+    background-image: url("../images/USGS_Logo_small.png");
+    background-repeat: no-repeat;
+    width: 210px; /* you will likely need to specify image width and height here */
+    height: 70px;
+  }
