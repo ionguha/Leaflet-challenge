@@ -1,4 +1,4 @@
-![Earthquake_image](https://www.emsc-csem.org/Images/map_zoom/WEBMAPS/24H/TWORLD.24hours.jpg)
+![Earthquake_Map](https://static.sciencelearn.org.nz/images/images/000/000/351/full/EQS_IPP_ITV_Plate_boundaries_USGS.jpg?1522293997)
 # Leaflet-challenge
 ### Visualizing earthquakes around the world using USGS database
 It was my first day at USGS, and I followed by manager around their facility. With a coffee mug in his hand he bellowed: "_Welcome to the **United States Geological Survey**, or **USGS** for short! The **USGS** is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Our scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. As a new hire, you will be helping them out with an exciting new project!. We collect a massive amount of data from all over the world each day, but lack a meaningful way of displaying it. Our fervent hope is that being able to visualize this data will allow us to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet."_ I was excited to show them my skills in HTML and Javascript and quickly went into action. I divided the project in two levels as described below:
@@ -9,6 +9,7 @@ It was my first day at USGS, and I followed by manager around their facility. Wi
    * Earthquakes with higher magnitudes appear larger and darker in color.
    * Included popups that provide additional information about the earthquake when a marker is clicked.
    * Created a legend that provides context for your map data.
+
 #### Level 2: More Data
 * **My Data Set** The USGS wanted me to plot a second data set on my map to illustrate the relationship between tectonic plates and seismic activity. I pulled in a second data set to visualize it along side my original set of data. Data on tectonic plates was sourced from <https://github.com/fraxen/tectonicplates>.
 * **Visualize the Data** I plotted the second set of data on my map to show the relationship between tectonic plates and earthquakes
