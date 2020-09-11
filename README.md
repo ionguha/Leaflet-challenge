@@ -9,7 +9,7 @@ It was my first day at USGS, and my manager was showing me their brand new facil
    * Earthquakes with higher magnitudes appear larger and darker in color.
    * Included popups that provide additional information about the earthquake when a marker is clicked.
    * Created a legend that provides context for your map data.
-
+![Step 1 Image](Images/Step1.png)
 #### Level 2: More Data
 * **My Data Set** The USGS wanted me to plot a second data set on my map to illustrate the relationship between tectonic plates and seismic activity. I pulled in a second data set to visualize it along side my original set of data. Data on tectonic plates was sourced from <https://github.com/fraxen/tectonicplates>.
 * **Visualize the Data** I plotted the second set of data on my map to show the relationship between tectonic plates and earthquakes
@@ -17,3 +17,4 @@ It was my first day at USGS, and my manager was showing me their brand new facil
    * Tectonic plate boundaries and earthquake maps were added as overlays.
    * Included popups that provide additional information about the plate boundary.
    * With layer controls the map can be visualized in a number of ways.
+![Step 2 Image](Images/Step2.png)
